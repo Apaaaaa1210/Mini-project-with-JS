@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#quiz {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+#soal {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+#jawab {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#button.active {
+  background: #00b894;
+}
+
+button:hover {
+  background: #ddd;
+}
+
+#next {
+  margin-top: 15px;
+  background: #4caf50;
+  color: white;
+}
+
+#next:hover {
+  background: #45a049;
+}
